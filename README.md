@@ -2,10 +2,6 @@
 
 # 문재원 | Mun JaeWon
 
-백엔드, AI, 클라우드 네이티브 관측 플랫폼에 관심이 많은 개발자입니다.  
-사용자에게 보이는 화면부터 API, 데이터 모델, AI 파이프라인, 운영 인프라까지 이어지는 실제 서비스를 만드는 일을 좋아합니다.
-
-[![GitHub](https://img.shields.io/badge/GitHub-MJW207-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MJW207)
 
 </div>
 
