@@ -1,8 +1,9 @@
 <div align="center">
 
-# Mun JaeWon
+# 문재원 | Mun JaeWon
 
-Backend, AI, and cloud-native observability developer building practical systems from product UI to data pipelines.
+백엔드, AI, 클라우드 네이티브 관측 플랫폼에 관심이 많은 개발자입니다.  
+사용자에게 보이는 화면부터 API, 데이터 모델, AI 파이프라인, 운영 인프라까지 이어지는 실제 서비스를 만드는 일을 좋아합니다.
 
 [![GitHub](https://img.shields.io/badge/GitHub-MJW207-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MJW207)
 
@@ -10,18 +11,18 @@ Backend, AI, and cloud-native observability developer building practical systems
 
 ---
 
-## About Me
+## 소개
 
-I like building services that connect real user workflows with reliable backend systems.
-Recently, I have been working across full-stack web development, AI-powered image analysis, big-data model training, Kubernetes observability, and anomaly detection systems.
+실제 사용자가 겪는 문제를 안정적인 시스템으로 풀어내는 개발을 지향합니다.  
+최근에는 풀스택 웹 서비스, AI 이미지 분석, 빅데이터 기반 모델 학습, Kubernetes 관측성, 이상 탐지 시스템을 중심으로 프로젝트를 진행했습니다.
 
-- Focus: Backend engineering, AI service integration, observability, data-driven applications
-- Interested in: Kubernetes, OpenTelemetry, anomaly detection, ML pipelines, developer platforms
-- Strengths: Turning broad product ideas into working architecture, APIs, data models, and verifiable features
+- 관심 분야: 백엔드 엔지니어링, AI 서비스 연동, Observability, 데이터 기반 애플리케이션
+- 공부 중인 주제: Kubernetes, OpenTelemetry, 이상 탐지, ML 파이프라인, 개발자 플랫폼
+- 강점: 아이디어를 API, DB 설계, 서비스 로직, 검증 가능한 기능으로 구체화하는 것
 
-## Tech Stack
+## 기술 스택
 
-### Backend / Platform
+### 백엔드 / 플랫폼
 
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -29,14 +30,14 @@ Recently, I have been working across full-stack web development, AI-powered imag
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### Frontend
+### 프론트엔드
 
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Cloudscape](https://img.shields.io/badge/Cloudscape-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-### AI / Data
+### AI / 데이터
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
@@ -45,7 +46,7 @@ Recently, I have been working across full-stack web development, AI-powered imag
 ![OpenAI CLIP](https://img.shields.io/badge/OpenAI_CLIP-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white)
 
-### Infra / Observability
+### 인프라 / 관측성
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
@@ -55,23 +56,25 @@ Recently, I have been working across full-stack web development, AI-powered imag
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-## Featured Projects
+## 대표 프로젝트
 
 ### Monithub
 
-Cloud-native observability and AI operations platform.
+클라우드 네이티브 Observability 및 AI 운영 플랫폼입니다.
 
-Monithub is a multi-service platform for dashboards, incidents, service maps, telemetry collection, AI gateway routing, and anomaly detection. I worked with Go, React, Python, Kubernetes, OpenTelemetry, Prometheus-style metrics, ClickHouse, MinIO, and service-level platform architecture.
+Monithub는 대시보드, 인시던트, 서비스 맵, 텔레메트리 수집, AI Gateway, 이상 탐지 기능을 포함한 멀티 서비스 플랫폼입니다. Go, React, Python, Kubernetes, OpenTelemetry, Prometheus 스타일 메트릭, ClickHouse, MinIO를 활용해 플랫폼 구조와 운영 흐름을 다뤘습니다.
 
-Key work:
+주요 작업:
 
-- Built platform backend surfaces with Go, Chi, PostgreSQL, MinIO, OpenTelemetry, and Kubernetes client integrations
-- Developed React + TypeScript dashboard UI using Cloudscape, CodeMirror, Recharts, uPlot, React Flow, and service-map visualizations
-- Designed analytics flows for anomaly detection with FastAPI, NumPy, Pandas, SciPy, scikit-learn, runtime calibration, data-quality gates, and IF model evidence
-- Worked on an observability-first AI/API gateway supporting request IDs, trace context propagation, Prometheus metrics, OpenTelemetry traces/logs/metrics, OpenAI-compatible routes, direct mode, and agent tunnel mode
-- Implemented Kubernetes operator features for service-map collection, eBPF flow agents, OpenTelemetry Collector resources, CRDs, Hubble/Cilium integration, and auto-instrumentation control
+- Go, Chi, PostgreSQL, MinIO, OpenTelemetry, Kubernetes client 기반 플랫폼 백엔드 기능 구현
+- React + TypeScript 기반 대시보드 UI 개발
+- Cloudscape, CodeMirror, Recharts, uPlot, React Flow를 활용한 관측 데이터 시각화 및 서비스 맵 구성
+- FastAPI, NumPy, Pandas, SciPy, scikit-learn 기반 이상 탐지 분석 흐름 설계
+- 런타임 보정, 데이터 품질 게이트, Isolation Forest 모델 evidence를 활용한 분석 파이프라인 구성
+- request id, trace context, Prometheus metrics, OpenTelemetry traces/logs/metrics를 수집하는 AI/API Gateway 작업
+- Kubernetes Operator, CRD, eBPF Flow Agent, OpenTelemetry Collector, Hubble/Cilium 연동, auto-instrumentation 제어 기능 구현
 
-Tech:
+기술:
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -85,26 +88,28 @@ Tech:
 
 ### LoGrove
 
-AI-based photography learning and community platform.
+AI 기반 사진 학습 및 커뮤니티 플랫폼입니다.
 
-LoGrove helps beginner photographers learn composition and camera concepts through missions, galleries, community posts, AI image evaluation, and automatic image tagging.
+LoGrove는 사진 입문자가 구도와 촬영 개념을 단계별 미션으로 학습하고, 갤러리와 커뮤니티를 통해 사진을 공유하며, AI 기반 이미지 평가와 자동 태그 추천을 받을 수 있는 서비스입니다.
 
-My contribution:
+주요 기여:
 
-- Designed backend data models and server logic for users, posts, comments, tags, images, missions, mission states, and AI evaluation results
-- Implemented REST API flows with Spring Boot, Spring Security, JWT, JPA, MySQL, Swagger/OpenAPI, and image upload/conversion utilities
-- Integrated AI evaluation and tagging workflows using Gemini API and a Python FastAPI CLIP tagging service
-- Connected frontend, backend, AI service, and database into a separated service architecture
+- 사용자, 게시글, 댓글, 태그, 이미지, 미션, 미션 상태, AI 평가 결과 중심의 백엔드 데이터 모델 설계
+- Spring Boot, Spring Security, JWT, JPA, MySQL 기반 REST API 구현
+- Swagger/OpenAPI 문서화 및 이미지 업로드/변환 흐름 구현
+- Gemini API 기반 사진 평가 기능 연동
+- Python FastAPI + CLIP 기반 이미지 태깅 서비스와 백엔드 연동
+- 프론트엔드, 백엔드, AI 서비스, DB를 분리한 서비스 구조 구성
 
-Features:
+주요 기능:
 
-- Community, gallery, and forum boards
-- Gallery write flow with AI tag recommendation
-- Step-by-step photography learning missions
-- Gemini-based photo mission scoring and feedback
-- My page with profile, level, experience, posts, likes, gallery images, and mission submissions
+- 커뮤니티, 갤러리, 포럼 게시판
+- 갤러리 작성 시 AI 태그 추천
+- 단계별 사진 학습 미션
+- Gemini 기반 사진 미션 채점 및 피드백
+- 마이페이지에서 프로필, 레벨, 경험치, 작성 글, 좋아요, 갤러리 이미지, 미션 제출 내역 관리
 
-Tech:
+기술:
 
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -119,27 +124,28 @@ Tech:
 
 ### BigDataProgramming PandaNum
 
-Crop disease progression classification model.
+작물 질병 진행 단계 분류 모델 프로젝트입니다.
 
-This project classifies crop disease progression into four stages: normal, early, middle, and late. It uses AI Hub facility/open-field crop disease image data and evaluates generalization across environment groups.
+AI Hub 시설/노지 작물 질병 이미지 데이터를 활용해 작물 질병 진행 단계를 정상, 초기, 중기, 말기 4개 클래스로 분류했습니다. 모델 성능뿐 아니라 환경 그룹이 달라졌을 때의 일반화 가능성도 함께 검증했습니다.
 
-Highlights:
+주요 작업:
 
-- Built an EfficientNet-B3 + CBAM image classification model
-- Used bbox crop, padding, 512x512 letterbox resize, original-id based stratified splitting, class caps, WeightedRandomSampler, FocalLoss, and soft labeling
-- Evaluated facility/open-field performance separately and tested held-out environment generalization
-- Added confusion matrix and Grad-CAM based analysis for model interpretation
+- EfficientNet-B3 + CBAM 기반 이미지 분류 모델 구성
+- bbox crop, padding, 512x512 letterbox resize 전처리 적용
+- original_id 기준 stratified split, class cap, WeightedRandomSampler, FocalLoss, soft labeling 적용
+- 시설/노지 테스트 성능을 분리 평가하고 held-out 환경 그룹 일반화 성능 검증
+- Confusion Matrix와 Grad-CAM을 활용한 모델 해석 분석
 
-Results:
+결과:
 
-| Evaluation | Macro F1 |
+| 평가 항목 | Macro F1 |
 |---|---:|
-| Combined test | 0.7447 |
-| Facility test | 0.7590 |
-| Open-field test | 0.7262 |
-| Held-out 5 groups | 0.5478 |
+| 통합 Test | 0.7447 |
+| 시설 Test | 0.7590 |
+| 노지 Test | 0.7262 |
+| held-out 5그룹 | 0.5478 |
 
-Tech:
+기술:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -148,11 +154,12 @@ Tech:
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-## What I Am Building Toward
+## 지향점
 
-I want to grow as an engineer who can build systems that are useful in production: clear APIs, observable services, practical AI pipelines, maintainable frontend workflows, and infrastructure that operators can trust.
+운영 환경에서 실제로 쓸 수 있는 시스템을 만드는 개발자로 성장하고 싶습니다.  
+명확한 API, 관측 가능한 서비스, 실용적인 AI 파이프라인, 유지보수 가능한 프론트엔드 흐름, 신뢰할 수 있는 인프라를 함께 설계하는 엔지니어를 목표로 합니다.
 
-## GitHub Stats
+## GitHub 통계
 
 <div align="center">
 
@@ -161,6 +168,6 @@ I want to grow as an engineer who can build systems that are useful in productio
 
 </div>
 
-## Contact
+## 연락처
 
 - GitHub: [MJW207](https://github.com/MJW207)
