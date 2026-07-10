@@ -100,35 +100,41 @@ LoGrove는 사진 입문자가 구도와 촬영 개념을 단계별 미션으로
 
 ---
 
-### BigDataProgramming PandaNum
+### Panel Insight
 
-작물 질병 진행 단계 분류 모델 프로젝트입니다.
+React와 FastAPI 기반의 종합 패널 분석 및 클러스터링 플랫폼입니다.
 
-AI Hub 시설/노지 작물 질병 이미지 데이터를 활용해 작물 질병 진행 단계를 정상, 초기, 중기, 말기 4개 클래스로 분류했습니다. 모델 성능뿐 아니라 환경 그룹이 달라졌을 때의 일반화 가능성도 함께 검증했습니다.
+Panel Insight는 자연어 기반 벡터 검색, 사전 클러스터링 기반 군집 분석, 그룹 비교 시각화, 히스토리/북마크 기능을 제공하는 분석 서비스입니다. Pinecone과 OpenAI Embeddings를 활용해 패널 데이터를 검색하고, HDBSCAN/UMAP 기반 클러스터링으로 소비자 그룹의 특징을 시각적으로 탐색할 수 있도록 구성했습니다.
 
 주요 작업:
 
-- EfficientNet-B3 + CBAM 기반 이미지 분류 모델 구성
-- bbox crop, padding, 512x512 letterbox resize 전처리 적용
-- original_id 기준 stratified split, class cap, WeightedRandomSampler, FocalLoss, soft labeling 적용
-- 시설/노지 테스트 성능을 분리 평가하고 held-out 환경 그룹 일반화 성능 검증
-- Confusion Matrix와 Grad-CAM을 활용한 모델 해석 분석
+- React + TypeScript + Vite 기반 분석 대시보드 UI 구성
+- FastAPI 기반 검색, 패널 상세, 클러스터링, 시각화 API 설계
+- Pinecone + OpenAI Embeddings 기반 자연어 벡터 검색 파이프라인 구성
+- NeonDB/PostgreSQL, pgvector, SQLAlchemy 기반 패널 및 클러스터링 데이터 관리
+- HDBSCAN 기반 사전 클러스터링과 UMAP 2D 시각화 흐름 구현
+- SummaryBar, 필터 프리셋, 히스토리, 북마크, 비교 분석 화면 등 분석 UX 개선
+- 그룹 간 차이를 radar chart, heatmap, stacked bar, dot plot 등 다양한 차트로 비교
 
-결과:
+주요 기능:
 
-| 평가 항목 | Macro F1 |
-|---|---:|
-| 통합 Test | 0.7447 |
-| 시설 Test | 0.7590 |
-| 노지 Test | 0.7262 |
-| held-out 5그룹 | 0.5478 |
+- 자연어 쿼리 기반 패널 검색
+- 연령, 성별, 지역, 소득 등 복합 필터링
+- 검색 결과 통계 요약 및 상세 패널 정보 조회
+- 클러스터 프로필, 품질 지표, 군집별 특징 분석
+- 클러스터/세그먼트 간 비교 분석
+- CSV, JSON, TXT, PNG 내보내기
 
 기술:
 
+![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![timm](https://img.shields.io/badge/timm-111827?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI_Embeddings-412991?style=flat-square&logo=openai&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
