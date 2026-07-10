@@ -52,16 +52,6 @@
 
 Monithub는 대시보드, 인시던트, 서비스 맵, 텔레메트리 수집, AI Gateway, 이상 탐지 기능을 포함한 멀티 서비스 플랫폼입니다. Go, React, Python, Kubernetes, OpenTelemetry, Prometheus 스타일 메트릭, ClickHouse, MinIO를 활용해 플랫폼 구조와 운영 흐름을 다뤘습니다.
 
-주요 작업:
-
-- Go, Chi, PostgreSQL, MinIO, OpenTelemetry, Kubernetes client 기반 플랫폼 백엔드 기능 구현
-- React + TypeScript 기반 대시보드 UI 개발
-- Cloudscape, CodeMirror, Recharts, uPlot, React Flow를 활용한 관측 데이터 시각화 및 서비스 맵 구성
-- FastAPI, NumPy, Pandas, SciPy, scikit-learn 기반 이상 탐지 분석 흐름 설계
-- 런타임 보정, 데이터 품질 게이트, Isolation Forest 모델 evidence를 활용한 분석 파이프라인 구성
-- request id, trace context, Prometheus metrics, OpenTelemetry traces/logs/metrics를 수집하는 AI/API Gateway 작업
-- Kubernetes Operator, CRD, eBPF Flow Agent, OpenTelemetry Collector, Hubble/Cilium 연동, auto-instrumentation 제어 기능 구현
-
 기술:
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
